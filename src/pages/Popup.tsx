@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import "./Popup.css";
-// import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/button';
 
 export default function() {
   useEffect(() => {
@@ -9,7 +9,7 @@ export default function() {
 
   return (
     <div>
-      {/* <Button>BUTTON</Button> */}
+      <Button>BUTTON</Button>
       <img src="/icon-with-shadow.svg" />
       <h1>vite-plugin-web-extension</h1>
       <p>
